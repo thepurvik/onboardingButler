@@ -1,0 +1,5 @@
+Username,New Username,Password,First name,Surname,Email address,Approver,Cost centre,Division,Grade,Location,Position/role,Preferred language,Time zone,Group,Login mode,Account state,Send welcome email,,Is Hiring manager
+example_user_1,example_new user_2,password1234_,example text,example_2@agylia.com,example_approver_3,uk/north/sales,uk/north/hr,uk/east/marketing,en-GB,(UTC-11) Etc/GMT+11,example_group_3,sso,yes,,,,,,Yes
+example_user_2,,example text,example text,example_3@agylia.com,uk/north/sales,uk/north/hr,uk/east/marketing,uk/north/sales,en-GB,(UTC-11) Pacific/Midway,forms,active,,,,,,,No
+example_user_3,password1234_,example text,example text,example_approver_1,uk/north/hr,uk/east/marketing,uk/north/sales,uk/north/hr,en-GB,example_group_1,forms,inactive,no,,,,,,Yes
+,,example text,example_1@agylia.com,example_approver_2,uk/east/marketing,uk/north/sales,uk/north/hr,uk/east/marketing,(UTC-12) Etc/GMT+12,example_group_2,,,,,,,,,
