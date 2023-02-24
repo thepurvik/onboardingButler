@@ -1,0 +1,63 @@
+.form-check-input {
+  position: inherit;
+  right: 5px;
+  height: 1rem;
+  width: 1rem;
+}
+.btncolor {
+  font-size: 14px;
+}
+.ac_text {
+  font-size: 32px;
+  font-weight: 600;
+}
+.form_datas label {
+  font-size: 12px;
+  font-weight: 400;
+}
+.form-action {
+  /* height: 600px; */
+  width: 456px;
+  max-width: 100%;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0px 0px 4px 0px #a7a0a0;
+  padding: 2px;
+  border-radius: 4px;
+}
+.register_control {
+  border-radius: 40px;
+  /* border: 2px solid #e6e6e7; */
+}
+.register_control #password {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  /* border: 2px solid #e6e6e7; */
+}
+.register_control #btnShowPwd,
+.register_control #btnShowPwd button {
+  border-bottom-right-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+  border-color: #cbcbcc;
+  /* border: 2px solid #e6e6e7; */
+}
+.register_control #btnShowPwd button {
+  padding: 4px 8px;
+  outline: none;
+  box-shadow: none;
+}
+.input-group-text {
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  color: #cc3e2f;
+  background-color: #ffffff;
+  /* border: 2px solid #e6e6e7; */
+  /* border-right: 0; */
+}
+.input-group > .custom-select:not(:first-child),
+.input-group > .form-control:not(:first-child) {
+  border-left: 0;
+}
+.term {
+  color: #cc3e2f;
+}

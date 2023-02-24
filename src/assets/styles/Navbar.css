@@ -1,0 +1,240 @@
+.container-fluid {
+  background-color: #f0fbff52;
+}
+
+.navbar-nav .active {
+  color: #fff !important;
+}
+
+/* Navbar 2 */
+
+.OnboardingLogo {
+  padding-left: 40px;
+}
+.OnboardingLogo img {
+  width: 170px;
+}
+.Navbar2_Main {
+  padding: 15px;
+}
+.svg_icon a {
+  color: #ffffff !important;
+  margin: 0;
+  font-size: 26px;
+  letter-spacing: 6px;
+  font-weight: bold;
+}
+.Logo_Txt .Logo_txt1 {
+  color: #91afc5;
+  font-size: 26px;
+  letter-spacing: 6px;
+  font-weight: bold;
+}
+.Logo_Txt .Logo_txt2 {
+  color: #cc3e2e;
+  line-height: 0 !important;
+  font-size: 10px;
+  display: block;
+}
+.Navbar2-fluid {
+  background-color: #2e2e2e;
+}
+.Navbar2-fluid .row {
+  margin: 0 0;
+}
+.navbar_body ul li a {
+  color: #b5b5b5 !important;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+.Searcg_Icon {
+  color: #b5b5b5;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* Navbar 3 */
+
+.Navbar3-fluid {
+  background-color: #2e2e2e;
+}
+.Navbar3-fluid .row {
+  margin: 0 0;
+}
+
+.Nav-Icon a {
+  font-size: 25px;
+  color: white !important;
+  list-style: none;
+  padding: 5px;
+}
+.Nav-Icon p {
+  font-size: 25px;
+  color: white !important;
+  list-style: none;
+  padding: 5px;
+}
+.Nav-Icon a img {
+  width: 35px;
+  max-width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.Log_DropDown {
+  background-color: #f0fbff !important;
+  border-radius: 10px;
+  position: absolute;
+  left: -258px;
+  top: 48px;
+  box-shadow: inset 0 0 4px #00000063;
+}
+.Log_DropDown a {
+  font-size: 15px;
+  font-weight: bold;
+  color: black !important;
+  border-radius: 5px;
+  padding: 10px;
+}
+.Log_DropDown a:hover {
+  background-color: #cc3e2f !important;
+  color: #fff !important;
+}
+.OnboardingLogo.outer-logo img {
+  width: 150px;
+}
+/* .OnboardingLogo.inner-logo img {
+  width: 150px;
+} */
+.OnboardingLogo.inner-logo:hover {
+  cursor: pointer;
+}
+/* .OnboardingLogo .UnAuth_Logo {
+  width: 150px;
+} */
+.navbar_pic {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+.navbar_pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* Navbar1 */
+@media only screen and (max-width: 1200px) {
+  .Navbar1_body a {
+    font-size: 12px;
+  }
+  .Navbar1_body ul li {
+    padding: 0 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .Navbar_grid {
+    display: grid;
+    text-align: left;
+  }
+  .Navbar1_body {
+    padding-top: 15px;
+  }
+  .Navbar1_body .Navbar_contact {
+    padding-left: 15px;
+  }
+}
+
+/* Navbar2 */
+
+@media only screen and (max-width: 1200px) {
+  .navbar_body ul li a {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 756px) {
+  .svg_icon a {
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+  .Logo_Txt .Logo_txt1 {
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+  .Logo_Txt .Logo_txt2 {
+    font-size: 5px;
+  }
+  .OnboardingLogo {
+    padding: 0px;
+  }
+  .Nav-Icon a {
+    font-size: 20px;
+  }
+  .Log_DropDown {
+    position: absolute;
+    left: -95px !important;
+  }
+  /* .Dash_Dropdown {
+    position: absolute;
+    left: -232px !important;
+  } */
+}
+@media only screen and (max-width: 1200px) and (min-width: 1199px) {
+  .col-lg-12 {
+    max-width: 70%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .OnboardingLogo {
+    padding: 0px;
+  }
+}
+/* @media only screen and (max-width: 556px) {
+  .OnboardingLogo svg {
+    width: 170px;
+  }
+} */
+
+/* Navbar3 */
+
+@media only screen and (max-width: 1236px) and (min-width: 756px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 10px;
+  }
+  .svg_icon a {
+    font-size: 13px;
+    letter-spacing: 2px;
+  }
+  .Logo_Txt .Logo_txt1 {
+    font-size: 13px;
+  }
+  .Logo_Txt .Logo_txt2 {
+    font-size: 5px;
+  }
+  .Nav-Icon a {
+    font-size: 13px;
+  }
+}
+.OnboardingLogo.outer-logo {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .OnboardingLogo.outer-logo {
+    display: block;
+  }
+  .OnboardingLogo.inner-logo {
+    display: none;
+  }
+}
+@media (max-width: 769px) {
+  .Log_DropDown {
+    left: -133px !important;
+  }
+}
+@media (max-width: 972px) {
+  .Log_DropDown {
+    left: -216px !important;
+  }
+}

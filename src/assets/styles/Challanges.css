@@ -1,0 +1,66 @@
+.Challanges_txt {
+  text-align: center;
+  background-color: #fff4ed;
+  padding: 70px;
+  position: relative;
+}
+.Challanges_txt h1 {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: 800;
+  padding-bottom: 40px;
+}
+.Challanges_txt p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+.Challanges_txt button {
+  background: #CC3E2F;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 60px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.Challanges_txt .vector_icon {
+  padding-left: 7px;
+  font-weight: bold;
+}
+.Challanges_body .img_elments .element_img {
+  width: 150px;
+  position: absolute;
+  top: 10%;
+  left: -3%;
+  z-index: 999;
+}
+.Challanges_body .img_elments .element_img1 {
+  width: 150px;
+  position: absolute;
+  bottom: 10%;
+  right: -3%;
+  z-index: 999;
+}
+
+@media only screen and (max-width: 992px) {
+  .Challanges_body .img_elments .element_img {
+    width: 100px;
+  }
+  .Challanges_body .img_elments .element_img1 {
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 756px) {
+  .Challanges_txt {
+    text-align: center;
+    background-color: #fff4ed;
+    padding: 10px;
+  }
+  .Challanges_body .img_elments .element_img {
+    width: 100px;
+  }
+  .Challanges_body .img_elments .element_img1 {
+    width: 100px;
+  }
+}

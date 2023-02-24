@@ -1,0 +1,227 @@
+.Step5_Box {
+  border: 2px solid #e2ebf1;
+  border-radius: 14px;
+  padding: 34px 32px 40px 32px;
+  background-color: #ffffff;
+}
+.Step5_Graph_Box {
+  border: 2px solid #e2ebf1;
+  border-radius: 14px;
+  background-color: #ffffff;
+  margin: 15px 0px;
+}
+.Step5_Graph_Box .Step5_Grap_Icon {
+  color: #cc3e2f;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.telescope {
+  margin-bottom: 36px;
+}
+.Step5_Body {
+  margin: 0;
+  padding: 22px;
+  background-color: #f8f8f8;
+  border: 2px solid #e6e6e7;
+  border-radius: 14px;
+}
+
+/* Icon Collapse  */
+
+.Step5_Body .Step5_MainIcon {
+  color: #cc3e2f;
+  margin: 0 10px;
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
+.Step5_Body .Step5_Icon {
+  color: #cc3e2f;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 25px;
+}
+.Step5_MainIcon.collapsed {
+  color: #cc3e2f;
+  display: block;
+  cursor: pointer;
+}
+.Step5_MainIcon1.collapsed {
+  color: #cc3e2f;
+  display: none;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+.Step5_MainIcon1 {
+  color: #cc3e2f;
+  display: block;
+  cursor: pointer;
+  font-size: 25px;
+  margin: 0 10px;
+}
+.Step5_MainIcon1.collapsed {
+  display: none;
+}
+
+.SimpleIcon1 {
+  display: block;
+  color: #868689;
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 25px;
+  min-width: 1em;
+}
+.SimpleIcon1.collapsed {
+  display: none;
+}
+.SimpleIcon {
+  display: none;
+  color: #868689;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 25px;
+  min-width: 1em;
+}
+.SimpleIcon3 {
+  color: #868689;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 25px;
+}
+.Step5_Body .SimpleIcon.collapsed {
+  display: block;
+}
+.Step5_Body h5 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #0e0d13;
+}
+.Step5_BodyTxt {
+  border: 2px solid #e2ebf1;
+  box-shadow: 1px 1px 8px #e2ebf1;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 14px;
+}
+.Step5_BodyTxt h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
+}
+.Step5_BodyTxt P {
+  color: #868689;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.Step5_BodyTxt:first-child {
+  color: #5f7d95;
+}
+.EditIcon {
+  color: #868689;
+  display: flex;
+  align-items: center;
+}
+.conection_border {
+  border: 2px solid #cc3e2f;
+  border-radius: 20px;
+  box-shadow: 1px 1px 8px #e2ebf1;
+}
+@media (max-width: 756px) {
+  .Step5_BodyTxt h5 {
+    font-size: 12px;
+  }
+  .Step5_BodyTxt P {
+    font-size: 12px;
+    word-break: break-all;
+  }
+  .Step5_BodyTxt .Dot_icon svg {
+    margin-left: 10px !important;
+    width: 100px;
+  }
+  .step5-progress .progress {
+    width: 100px !important;
+    margin-top: 10px;
+  }
+}
+
+.font_color {
+  color: #00b649;
+}
+/* .toggle_btn {
+  border-radius: 10px;
+  border: 2px solid #cc3e2f;
+} */
+.step5_Txt h5 {
+  color: #0e0d13;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.step5-progress .progress {
+  background-color: #ffffff !important;
+}
+
+.step5-progress .progress .completion-progress-bar {
+  background-color: #768d70 !important;
+}
+.step5-progress .progress .duration-progress-bar {
+  background-color: #87aa8756 !important;
+}
+
+.task-deatils-box p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #787878;
+}
+.task-deatils-main {
+  max-width: 85%;
+}
+.task-deatils-main .task-deatils-box p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #787878;
+}
+.task-deatils-main .task-deatils-box .task-deatils-btn {
+  text-align: end;
+}
+.onbparding-plan-box {
+  height: 395px;
+  overflow-y: auto;
+}
+/* .onbparding-plan-box::-webkit-scrollbar {
+  width: 0 !important;
+  display: none;
+} */
+.onbparding-plan-box::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(163, 163, 163, 0.63);
+  background-color: rgba(42, 26, 2, 0.404);
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.2) 75%,
+    transparent 75%,
+    transparent
+  );
+}
+.onbparding-plan-box::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.onbparding-plan-box::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
+}

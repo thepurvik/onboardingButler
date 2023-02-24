@@ -1,0 +1,16 @@
+.administrator_backcolor {
+  background: #fff;
+}
+.administrator_information {
+  border: 1px solid #e6e6e7;
+  border-radius: 14px;
+}
+.administrator_information h6 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 27px;
+  color: #cc3e2f;
+}
+.Edit_admin {
+  line-height: 50px;
+}

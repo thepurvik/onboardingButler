@@ -1,0 +1,162 @@
+.Step2_Body {
+  border: 2px solid #e2ebf1;
+  border-radius: 14px;
+  box-shadow: 1px 1px 8px #e2ebf1;
+  background-color: #ffffff;
+}
+.Step2_Body .Step2_Txt {
+  margin: 27px 32px 0px 30px !important;
+}
+.Step2_Body .Step2_Txt h5 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  padding: 0px 10px;
+}
+.Home-card .info_card .personal_info {
+  min-height: 195px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Step2_ChexBoxBody {
+  border: 2px solid #e2ebf1;
+  border-radius: 14px;
+  box-shadow: 1px 1px 8px #e2ebf1;
+  padding: 32px;
+  background-color: #fff;
+}
+.Step2_CheckBox h5 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #0e0d13;
+}
+.Step2_ChexBoxBody .CheckBox_Body {
+  border: 1.5px solid #e6e6e7;
+  border-radius: 14px;
+  box-shadow: 1px 1px 8px #e2ebf1;
+  background-color: #f9fafb;
+  /* margin-top: 32px; */
+  padding: 22px;
+}
+
+.task {
+  border: 1.5px solid #e6e6e7;
+  box-shadow: 1px 1px 8px #e2ebf1;
+  padding: 22px;
+  /* margin-top: 22px; */
+  background-color: #fff;
+}
+
+.task p {
+  color: black;
+  background-color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  padding-left: 5px;
+}
+
+.task.roundTop {
+  /* border-radius: 14px 14px 0px 0px; */
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+.task.roundBottom {
+  /* border-radius: 0px 0px 14px 14px; */
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+.CheckBox_MainTxt input[type='checkbox'] {
+  margin: 0 10px;
+}
+.CheckBox_MainTxt p {
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.CheckBox_Txt input[type='checkbox'] {
+  margin: 0 10px;
+}
+.CheckBox_Text {
+  margin: 10px 0;
+  border: 1px solid #e2ebf1;
+  border-radius: 14px;
+  box-shadow: 1px 1px 8px #e2ebf1;
+  padding: 22px;
+}
+.CheckBox_Text p {
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.CheckBox_Text input[type='checkbox'] {
+  margin: 0 10px;
+}
+.Btn_PreNext {
+  margin: 0;
+}
+.Btn_PreNext button:first-child {
+  background-color: #e2ebf1;
+  border: 2px solid #e2ebf1;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px;
+  text-transform: capitalize;
+  color: #0e0d13;
+}
+.Btn_PreNext button:last-child {
+  border: 1px solid #e2ebf1;
+  background-color: #cc3e2f;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px;
+  line-height: 24px;
+  border-radius: 10px;
+}
+
+/* PlusIcon CSS Start*/
+.MainIcon {
+  color: #cc3e2f;
+  font-size: 23px;
+  cursor: pointer;
+  min-width: 1em;
+}
+.PlusIcon {
+  color: #cc3e2f;
+  font-size: 20px;
+}
+/* PlusIcon CSS End*/
+
+/* Media Query Css Start */
+@media only screen and (max-width: 756px) {
+  .MainIcon {
+    font-size: 60px;
+    width: 30px;
+    min-width: 30px;
+  }
+  .PlusIcon {
+    font-size: 60px;
+    width: 30px;
+    min-width: 30px;
+  }
+  .Step2_ChexBoxBody .CheckBox_Body {
+    padding: 10px;
+  }
+}
+/* Media Query Css End */
+.roundBorder {
+  border-radius: 14px;
+}
+
+/* #collapseOne2 .task {
+  border-radius: 14px;
+} */

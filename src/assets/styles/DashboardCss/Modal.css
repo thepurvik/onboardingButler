@@ -1,0 +1,68 @@
+/* Groups Modal */
+
+.Groups_Modal h5 {
+  color: #cc3e2f;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 27px;
+}
+.Groups_Modal .modal-dialog {
+  max-width: 700px !important;
+}
+.Groups_Modal .modal-content {
+  height: 530px !important;
+}
+.Groups_Modal .modal-footer .Btn_Save {
+  background-color: #cc3e2f;
+  color: #fff;
+}
+.Groups_Modal .modal-footer .Btn_Close {
+  background-color: #fff;
+  border: 2px solid #e6e6e7;
+}
+
+/* Onboard_Modal */
+
+.Onboard_Modal h5 {
+  color: #cc3e2f;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 27px;
+}
+.Onboard_Modal .modal-dialog {
+  max-width: 1150px !important;
+}
+.Onboard_Modal .modal-content {
+  max-height: auto !important;
+}
+.Onboard_Modal .modal-footer .Btn_Save {
+  background-color: #cc3e2f;
+  color: #fff;
+}
+.Onboard_Modal .modal-footer .Btn_Close {
+  background-color: #fff;
+  border: 2px solid #e6e6e7;
+}
+
+/* Role Modal */
+
+.Role_Modal h5 {
+  color: #cc3e2f;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 27px;
+}
+.Role_Modal .modal-dialog {
+  max-width: 700px !important;
+}
+.Role_Modal .modal-content {
+  height: auto !important;
+}
+.Role_Modal .modal-footer .Btn_Save {
+  background-color: #fff;
+  border: 2px solid #e6e6e7;
+}
+.Role_Modal .modal-footer .Btn_Close {
+  background-color: #cc3e2f;
+  color: #fff;
+}

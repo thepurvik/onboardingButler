@@ -1,0 +1,61 @@
+.About_Title .About_txt h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.About_Title .About_txt h3 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+}
+.About_Title .About_txt p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.About_btn a {
+  background-color: #cc3e2f;
+  color: #fff;
+  border-radius: 60px;
+}
+.About_Banner .Banner_img {
+  width: 350px;
+  height: 350px;
+  margin: auto;
+  border-radius: 50%;
+}
+.About_Banner .Banner_img .banner {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.About_Banner .banner_image {
+  position: relative;
+}
+.banner_image .Abt_Dot_img {
+  width: 70px;
+  height: auto;
+  position: absolute;
+  right: 20%;
+  bottom: 80%;
+}
+.banner_image .about_Member_Img {
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
+}
+.banner_image .about_Member_Img .member_img {
+  box-shadow: 0px 48px 160px 0px rgb(51 51 51 / 25%);
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 756px) {
+  .About_Banner .Banner_img {
+    width: 280px;
+    height: 280px;
+  }
+  .banner_image .about_Member_Img .member_img {
+    width: 220px;
+    margin-left: 20px;
+  }
+}

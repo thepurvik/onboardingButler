@@ -1,0 +1,28 @@
+.hicolor {
+  font-weight: 600;
+  color: #0e0d13;
+}
+.Hiring {
+  border: 1px solid #e2ebf1;
+  border-radius: 18px;
+  box-shadow: 1px 1px 8px #e2ebf1;
+  max-width: 48.5%;
+  margin: 5px;
+}
+.apexcharts-legend.apx-legend-position-bottom.apexcharts-align-center {
+  position: absolute !important;
+  bottom: 95% !important;
+  right: 29% !important;
+}
+.apexcharts-legend.apx-legend-position-bottom .apexcharts-legend-series,
+.apexcharts-legend.apx-legend-position-top .apexcharts-legend-series {
+  border: 1px solid #e6e6e7;
+}
+.Hiring h6 {
+  color: #0e0d13;
+}
+@media only screen and (max-width: 578px) {
+  .Hiring {
+    max-width: 100.5%;
+  }
+}

@@ -1,0 +1,30 @@
+p {
+  color: #787d7f;
+  margin: 0%;
+}
+label {
+  margin-bottom: 0%;
+  font-size: 12px;
+}
+.form-control {
+  font-size: 17px;
+  border-radius: 5px;
+}
+.font-icons .font {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #cc3e2f;
+  border-radius: 50%;
+}
+.font-icons .font svg {
+  color: #cc3e2f;
+  font-size: 24px;
+  margin: 6px;
+}
+.font_txt {
+  padding-left: 10px;
+}
+.btncolor {
+  background-color: #cc3e2f !important;
+  border-radius: 60px;
+}

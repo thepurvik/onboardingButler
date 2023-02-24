@@ -1,0 +1,83 @@
+.volume-img {
+  background-color: #CC3E2F;
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 21%;
+  left: 24%;
+  border-radius: 3px;
+  color: #fff;
+  padding: 5px;
+  z-index: 9999;
+}
+.audio-img {
+  background-color: #CC3E2F;
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  bottom: 5%;
+  right: 25%;
+  border-radius: 3px;
+  color: #fff;
+  padding: 5px;
+}
+.img {
+  position: relative;
+  display: block;
+  margin: auto;
+}
+.btncolor {
+  padding: 10px 34px;
+  color: #fff;
+}
+@media (max-width: 1200px) {
+  .volume-img {
+    position: absolute;
+    top: 21%;
+    left: 16%;
+  }
+  .audio-img {
+    position: absolute;
+    bottom: 5%;
+    right: 21%;
+  }
+}
+@media (max-width: 992px) {
+  .volume-img {
+    position: absolute;
+    top: 21%;
+    left: 5%;
+  }
+  .audio-img {
+    position: absolute;
+    bottom: 5%;
+    right: 11%;
+  }
+}
+@media (max-width: 773px) {
+  .volume-img {
+    position: absolute;
+    top: 21%;
+    left: 20%;
+  }
+  .audio-img {
+    position: absolute;
+    bottom: 5%;
+    right: 23%;
+  }
+  .btncolor {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 581) {
+  .volume-img {
+    position: sticky;
+    top: 21%;
+    left: 20%;
+  }
+  .audio-img {
+    position: sticky;
+    bottom: 5%;
+    right: 23%;
+  }
+}

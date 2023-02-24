@@ -1,0 +1,51 @@
+.Footer_body {
+  background-color: black !important;
+}
+
+.Icon_Logo {
+  background-color: #cc3e2f;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+.Icon_Logo a {
+  margin-left: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+.Footer_Media .Footer_Contact h3 {
+  color: #fff;
+  font-weight: bold;
+}
+.Footer_Media .Footer_Contact h6 {
+  color: #fff;
+  font-weight: bold;
+}
+.Footer_Media .Footer_links a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 15px;
+  display: grid;
+  text-decoration: none;
+}
+.Footer_Media .Footer_links h3 {
+  color: #fff;
+  font-weight: bold;
+}
+.Footer_Media .Social_Icon h3 {
+  color: #fff;
+  font-weight: bold;
+}
+.Footer_Media .Social_Icon a {
+  color: #fff;
+  padding: 5px;
+}
+.Footer_Icon {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 756px) {
+  .Footer_body .Footer_Media {
+    flex-wrap: wrap;
+  }
+}

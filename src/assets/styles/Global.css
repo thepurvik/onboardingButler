@@ -1,0 +1,1635 @@
+/* Poppins fonts start */
+@font-face {
+  font-family: 'Poppins-BoldItalic';
+  src: url('../fonts/Poppins/Poppins-BoldItalic.woff2') format('woff2'), url('../fonts/Poppins/Poppins-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-BlackItalic';
+  src: url('../fonts/Poppins/Poppins-BlackItalic.woff2') format('woff2'), url('../fonts/Poppins/Poppins-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-Black';
+  src: url('../fonts/Poppins/Poppins-Black.woff2') format('woff2'), url('../fonts/Poppins/Poppins-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../fonts/Poppins/Poppins-Bold.woff2') format('woff2'), url('../fonts/Poppins/Poppins-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-ExtraBoldItalic';
+  src: url('../fonts/Poppins/Poppins-ExtraBoldItalic.woff2') format('woff2'), url('../fonts/Poppins/Poppins-ExtraBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-ExtraBold';
+  src: url('../fonts/Poppins/Poppins-ExtraBold.woff2') format('woff2'), url('../fonts/Poppins/Poppins-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-ExtraLight';
+  src: url('../fonts/Poppins/Poppins-ExtraLight.woff2') format('woff2'), url('../fonts/Poppins/Poppins-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-Italic';
+  src: url('../fonts/Poppins/Poppins-Italic.woff2') format('woff2'), url('../fonts/Poppins/Poppins-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-ExtraLightItalic';
+  src: url('../fonts/Poppins/Poppins-ExtraLightItalic.woff2') format('woff2'), url('../fonts/Poppins/Poppins-ExtraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-LightItalic';
+  src: url('../fonts/Poppins/Poppins-LightItalic.woff2') format('woff2'), url('../fonts/Poppins/Poppins-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../fonts/Poppins/Poppins-Regular.woff2') format('woff2'), url('../fonts/Poppins/Poppins-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-MediumItalic';
+  src: url('../fonts/Poppins/Poppins-MediumItalic.woff2') format('woff2'), url('../fonts/Poppins/Poppins-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('../fonts/Poppins/Poppins-Light.woff2') format('woff2'), url('../fonts/Poppins/Poppins-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url('../fonts/Poppins/Poppins-SemiBold.woff2') format('woff2'), url('../fonts/Poppins/Poppins-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url('../fonts/Poppins/Poppins-Medium.woff2') format('woff2'), url('../fonts/Poppins/Poppins-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-Thin';
+  src: url('../fonts/Poppins/Poppins-Thin.woff2') format('woff2'), url('../fonts/Poppins/Poppins-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBoldItalic';
+  src: url('../fonts/Poppins/Poppins-SemiBoldItalic.woff2') format('woff2'), url('../fonts/Poppins/Poppins-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-ThinItalic';
+  src: url('../fonts/Poppins/Poppins-ThinItalic.woff2') format('woff2'), url('../fonts/Poppins/Poppins-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* CSS for poppins fonts start */
+.poppins-bolditalic {
+  font-family: 'Poppins-BoldItalic' !important;
+}
+
+.poppins-blackitalic {
+  font-family: 'Poppins-BlackItalic' !important;
+}
+
+.poppins-black {
+  font-family: 'Poppins-Black' !important;
+}
+
+.poppins-bold {
+  font-family: 'Poppins-Bold' !important;
+}
+
+.poppins-extrabolditalic {
+  font-family: 'Poppins-ExtraBoldItalic' !important;
+}
+
+.poppins-extrabold {
+  font-family: 'Poppins-ExtraBold' !important;
+}
+
+.poppins-extralight {
+  font-family: 'Poppins-ExtraLight' !important;
+}
+
+.poppins-italic {
+  font-family: 'Poppins-Italic' !important;
+}
+
+.poppins-extralightitalic {
+  font-family: 'Poppins-ExtraLightItalic' !important;
+}
+
+.poppins-lightitalic {
+  font-family: 'Poppins-LightItalic' !important;
+}
+
+.poppins-regular {
+  font-family: 'Poppins-Regular' !important;
+}
+
+.poppins-mediumitalic {
+  font-family: 'Poppins-MediumItalic' !important;
+}
+
+.poppins-light {
+  font-family: 'Poppins-Light' !important;
+}
+
+.poppins-semibold {
+  font-family: 'Poppins-SemiBold' !important;
+}
+
+.poppins-medium {
+  font-family: 'Poppins-Medium' !important;
+}
+
+.poppins-thin {
+  font-family: 'Poppins-Thin' !important;
+}
+
+.poppins-semibolditalic {
+  font-family: 'Poppins-SemiBoldItalic' !important;
+}
+
+.poppins-thinitalic {
+  font-family: 'Poppins-ThinItalic' !important;
+}
+
+/* CSS for poppins fonts end */
+
+body {
+  /* background-color: #f0fbff52; */
+  background-color: #f8f8f8;
+  height: 98vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+.page-wrap {
+  min-height: 100vh;
+}
+
+p {
+  color: #808080;
+}
+.w-98 {
+  width: 98% !important;
+}
+
+.popup {
+  background-color: #fff;
+  max-width: max-content;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px rgb(88, 86, 86);
+}
+
+.custom-popup {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0 0 0 / 56%);
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.custom-popup hr {
+  border-top: 1px solid #00000038;
+}
+
+.custom-popup .popup-content .popup-head {
+  font-weight: 500;
+}
+
+.custom-popup .popup-content {
+  align-self: center;
+  background: white;
+  padding: 2rem;
+  border-radius: 1em;
+  max-width: 375px;
+  width: 70%;
+}
+.OBBplan-create-popup .popup-content {
+  max-width: 570px !important;
+  padding: 0 2rem 0.5rem 2rem !important;
+}
+
+/* EditTablePopup START */
+.EDIT_TABLE {
+  box-shadow: 2px 2px 20px black;
+}
+
+.EditTable_Body table tr {
+  line-height: 60px;
+}
+
+.EditTable_Body label {
+  font-size: 17px;
+}
+
+.Table_txt label {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.Table_txt input {
+  font-size: 14px;
+}
+
+.Table_txt select {
+  font-size: 14px;
+}
+
+/* EditTablePopup END */
+
+.Initialize_Btn {
+  font-size: 15px;
+  border: 1px solid #00b649;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  display: inline-block;
+  padding: 5px 5px;
+}
+
+.btnColor {
+  background-color: #cc3e2f;
+}
+
+.registerCont {
+  background-image: url('../images/backimg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google_btn {
+  padding: 12px 23px;
+  border-radius: 5px;
+  border: 1px solid rgb(191, 192, 191);
+}
+
+.google_font {
+  font-size: 28px;
+  margin-right: 20px;
+}
+
+.google_btn:hover {
+  background-color: #e4e2e2;
+}
+
+/*--------------------------------------- Save and Cancel Btn START--------------------------- */
+.Save_btn {
+  background-color: #cc3e2f;
+  color: #fff;
+}
+
+.Cancel_btn {
+  background-color: '#fff';
+  color: black;
+  border: 2px solid #e6e6e7;
+}
+
+/*------------------------ Save and Cancel Btn END----------------------------- */
+
+/* ----------------------------- Rounded_CheckBox Start-----------------------------*/
+.Rounded_CheckBox {
+  display: inline-block;
+  position: relative;
+  padding-left: 31px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.Rounded_CheckBox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.Rounded_CheckBox .checkmark {
+  position: absolute;
+  top: -12px;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  border: 1px solid #cfcfcf;
+}
+
+.Rounded_CheckBox input:checked ~ .checkmark {
+  background-color: #cc3e2f;
+  border: 1px solid #cc3e2f;
+}
+
+.Rounded_CheckBox .checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.Rounded_CheckBox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.Rounded_CheckBox .checkmark:after {
+  left: 5px;
+  top: 1px;
+  width: 5px;
+  height: 9px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* ----------------------------- Rounded_CheckBox_green Start-----------------------------*/
+.Rounded_CheckBox_green {
+  display: inline-block;
+  position: relative;
+  padding-left: 31px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.Rounded_CheckBox_green input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.Rounded_CheckBox_green .checkmark_green {
+  position: absolute;
+  top: -8px;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  border: 1px solid #cfcfcf;
+}
+
+.Rounded_CheckBox_green input:checked ~ .checkmark_green {
+  background-color: #00b649;
+  border: 1px solid #00b649;
+}
+
+.Rounded_CheckBox_green .checkmark_green:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.Rounded_CheckBox_green input:checked ~ .checkmark_green:after {
+  display: block;
+}
+
+.Rounded_CheckBox_green .checkmark_green:after {
+  left: 5px;
+  top: 1px;
+  width: 5px;
+  height: 9px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/*----------------------------- New Checkbox CSS START------------------------ */
+
+.checkboxLabel {
+  border: 1px solid #cfcfcf;
+  height: 16px;
+  width: 16px;
+  min-width: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.checkboxLabel.active {
+  background-color: #cc3e2f !important;
+  border: 1px solid #cc3e2f;
+}
+
+.checkboxLabel .activeIcon {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*----------------------------- New Checkbox CSS END------------------------ */
+
+/*-------------------------- Rounded_CheckBox End--------------------------*/
+
+/* --------------------------Login btn Css START--------------------- */
+
+.login_btn {
+  border-radius: 40px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid #cc3e2f;
+  padding: 10px;
+}
+
+.login_btn:hover {
+  background-color: #fff;
+  color: #cc3e2f;
+  border: 2px solid #cc3e2f;
+}
+
+.login_page {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.from_lable label {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.login_control {
+  border-radius: 40px !important;
+  border: 2px solid #e6e6e7 !important;
+}
+
+.form-control:focus {
+  border-color: #e6e6e7;
+}
+
+/* --------------------------Login btn Css END--------------------- */
+
+/* Start css for the task component customColor css START*/
+.connectionCustomeColor {
+  background-color: #393c4a !important;
+}
+
+.clarificationCustomeColor {
+  background-color: #336b87 !important;
+}
+
+.cultureCustomeColor {
+  background-color: #cc3e2f !important;
+}
+
+.complianceCustomeColor {
+  background-color: #90afc5 !important;
+}
+
+/*---------------------------------The task component customColor css END---------------------------------*/
+
+.sidemenuColor {
+  background-color: #424345;
+  color: #fff;
+}
+
+/*--------------------------- Chat_Icon Css STARt---------------------------*/
+
+.Chat_Icon {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+#scroll-to-top {
+  display: none;
+}
+
+.Chat_Icon_Down {
+  position: fixed;
+  right: 20px;
+  top: 80px;
+}
+
+.Chat_Btn {
+  width: 50px;
+  height: 50px;
+  background-color: #cc3e2f;
+  border-radius: 60px;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  color: #fff !important;
+  align-items: center;
+  text-align: center;
+  padding-top: 3px;
+}
+
+/*--------------------------- Chat_Icon Css END---------------------------*/
+
+/*-----------------------------------Microsoft_btn START-----------------------------------*/
+
+.microsoft_btn {
+  padding: 10px;
+  background-color: #025680;
+  color: #fff !important;
+  font-weight: bold;
+  border: 2px solid #025680;
+  border-radius: 40px;
+}
+
+.microsoft_btn:hover {
+  background-color: #fff;
+  color: #025680 !important;
+  border: 2px solid #025680;
+}
+
+.microsoft_btn img {
+  color: #fff;
+  font-size: 25px;
+  margin: 0px 10px;
+}
+
+.text-truncate:hover {
+  color: #025680;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*-----------------------------------Microsoft_btn END-----------------------------------*/
+
+/* active - inactive  toogler css  start*/
+/*  */
+
+/* togler css end... */
+
+/*----------------------------------- Loading css START----------------------------------*/
+.Loader_Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 74vh;
+  height: 200px;
+  width: 100%;
+  /* background: rgb(255, 255, 255); */
+  background: #f4f5f8;
+}
+
+/* Loader Animation */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.load {
+  width: 100px;
+  height: 100px;
+  margin: 110px auto 0;
+  border: solid 10px #000000aa;
+  box-shadow: 0px 0px 10px rgba(68, 68, 68, 0.6);
+  border-radius: 50%;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  -webkit-transition: all 0.5s ease-in;
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+  transition: all 0.5s ease-in;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/*------------------------------- Loading css END------------------------------ */
+
+/*------------------------------ Change Password CSS Start----------------------------------- */
+.Change_Head {
+  background-color: #f0fbff;
+  height: 100vh;
+  background-image: url('../images/backimg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Change_Head .Change_Body {
+  width: 600px;
+  height: auto;
+  max-width: 90%;
+  /* margin: auto; */
+  display: flex;
+  /* transform: translateY(30%); */
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  box-shadow: inset 0px 1px 7px 8px rgb(0 0 0 / 5%);
+}
+
+.Change_Body .Change_Input {
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  line-height: 50px;
+}
+
+/* .Change_Btn {
+  margin: 20px 0px;
+} */
+.Change_Btn button {
+  border: 1px solid #ced4da;
+}
+
+.Change_Pwd {
+  margin-left: -40px !important;
+  border-right: 0;
+}
+
+.Change_Pwd button {
+  border: 1px solid #ced4da;
+  border-right: 0;
+  padding: 0px 10px !important;
+}
+
+/*--------------------------------------- Change Password CSS End----------------------------------- */
+
+/*--------------------------------------- Domain_Route CSS START----------------------------------- */
+
+.Donain_Logo {
+  padding-top: 50px !important;
+  border-radius: 10px;
+}
+
+.Donain_Logo svg {
+  border-radius: 10px;
+}
+
+.Domain_Route {
+  width: 80%;
+  height: auto;
+  /* background-color: #cc3e2f; */
+  border-radius: 10px;
+  transform: translateY(50%);
+}
+
+.Domain_Route h2 {
+  text-align: justify;
+  font-size: 20px;
+  margin: 10px 10px;
+  color: #cc3e2f;
+  color: cc3e2f;
+  font-weight: bold;
+}
+
+.Domain_Route h2 span {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.Domain_Route .Domain_Icon {
+  font-size: 30px;
+  color: #cc3e2f;
+}
+
+/*-------------------------------- Domain_Route CSS END------------------------------- */
+
+/* -----------------------------Cookies CSS START------------------------------------- */
+.Cookies_Body input {
+  display: none;
+}
+
+.Cookies_Body input:checked + #cookieBar {
+  bottom: -100%;
+}
+
+.Cookies label {
+  display: inline-block;
+  background: #cc3e2f;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+
+.Cookies label:hover {
+  background: #fff;
+  color: #cc3e2f;
+}
+
+#cookieBar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  /* background-repeat: no-repeat;
+  background-size: contain; */
+
+  transition: 2s ease;
+  -webkit-transition: 2s ease;
+  -moz-transition: 2s ease;
+}
+
+#cookieBar h6 {
+  color: #ffff;
+  text-align: justify;
+  font-size: 20px;
+}
+
+/* -----------------------------Cookies CSS END------------------------------------- */
+
+/*-------------------------------- Media css start----------------------------------- */
+@media (min-width: 1200px) {
+  body .container,
+  body .container-lg,
+  body .container-md,
+  body .container-sm,
+  body .container-xl {
+    max-width: 1294px;
+  }
+  .goog-te-menu-frame {
+    left: 1045.48px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  /* .Chat_Icon {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+  } */
+  .Table_container .table-wrapper table tbody td .action .Action_Icon {
+    margin: 0;
+  }
+
+  .Table_container .table-wrapper table tbody td .action .Action_Icon1 {
+    margin: 0;
+  }
+
+  .custom-popup .popup-content {
+    width: 60% !important;
+  }
+
+  /* .checkboxLabel {
+    width: 40px;
+  } */
+
+  .tooltiptext .personal_info {
+    height: 128px;
+    overflow-y: scroll;
+  }
+  .tooltiptext .blog_btn {
+    padding: 5px 15px !important;
+  }
+  .tooltiptext .profile_btn h5 {
+    font-size: 15px !important;
+  }
+  .tooltiptext .blog_btn h5 {
+    font-size: 15px !important;
+  }
+  .waypoint-section-main {
+    flex-wrap: wrap;
+  }
+  .waypoint-section {
+    width: 85% !important;
+  }
+  .onboarding-plan-simpletext {
+    height: auto !important;
+  }
+  .onboarding-plan-box {
+    margin-bottom: 25px !important;
+  }
+  .iframe-background {
+    width: 100% !important;
+  }
+  .step_3-iframe-background {
+    width: 100% !important;
+  }
+  .bulk-modal-dialog {
+    max-width: 90% !important;
+  }
+
+  .goog-te-menu-frame {
+    left: 622.48px !important;
+  }
+}
+
+@media (max-width: 976px) {
+  .custom-popup .popup-content {
+    width: 70% !important;
+  }
+  .goog-te-menu-frame {
+    left: 822px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .custom-popup .popup-content {
+    width: 85% !important;
+  }
+
+}
+
+/*---------------------------- Media css end-----------------------------------*/
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 27px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #cc3e2f;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 21px;
+  width: 21px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+  transform: translateX(0px);
+}
+
+input:checked + .slider {
+  background-color: #00b649;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #00b649;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  left: 1px;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* show and hide Password icons*/
+
+.register_control #password {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.register_control #btnShowPwd,
+.register_control #btnShowPwd button {
+  border-bottom-right-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+  border-color: #cbcbcc;
+}
+
+.register_control #btnShowPwd button {
+  padding: 4px 8px;
+  outline: none;
+  box-shadow: none;
+}
+
+.input-group-append .btn {
+  z-index: 9999;
+}
+
+.input-group-append {
+  margin-left: -35px;
+}
+
+.spinner-bg {
+  z-index: 1500;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #1f1f1f8a;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner-bg .spinner-border {
+  animation: rotation 4s infinite linear;
+  width: 200px;
+  height: 200px;
+  border: none;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(359deg);
+  }
+}
+
+.spinner-bg .spinner-border img {
+  width: 200px;
+  /* height: 200px; */
+}
+
+.disabled {
+  opacity: 0.7;
+}
+
+.modal-header {
+  align-items: center !important;
+}
+
+/* .backside2 {
+  border: 1px solid red !important;
+  border-radius: 14px !important;
+} */
+
+.active .backside2 {
+  border: 2px solid #cc3e2f;
+}
+
+/* Date piker */
+
+input[type='date'] {
+  position: relative;
+}
+
+/* create a new arrow, because we are going to mess up the native one
+see "List of symbols" below if you want another, you could also try to add a font-awesome icon.. */
+/* input[type="date"]:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900; 
+  content: "\f073";
+  color: #555;
+  padding: 0 5px;
+} */
+/* change color of symbol on hover */
+/* input[type='date']:hover:after {
+  color: #bf1400;
+} */
+/* make the native arrow invisible and stretch it over the whole field so you can click anywhere in the input field to trigger the native datepicker*/
+input[type='date']::-webkit-calendar-picker-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  color: transparent;
+  background: transparent;
+}
+
+/* adjust increase/decrease button */
+input[type='date']::-webkit-inner-spin-button {
+  z-index: 1;
+}
+
+/* adjust clear button */
+input[type='date']::-webkit-clear-button {
+  z-index: 1;
+}
+
+.textClipp {
+  display: inline-block;
+  width: 180px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.customTooltip {
+  position: relative;
+}
+
+.customTooltip:hover > .customTooltip-text {
+  height: 79px;
+  transition: height 0.4s;
+}
+
+.customTooltip-text {
+  height: 0;
+  overflow: hidden;
+  width: 300px;
+  transition: height 0.4s;
+  background-color: #fff;
+  color: #868689;
+  position: absolute;
+  border-radius: 5px;
+  left: 119px;
+  top: 1px;
+  z-index: 10;
+}
+
+.progress-text .customTooltip:hover > .customTooltip-text {
+  height: 115px;
+  text-align: left;
+  padding-left: 19px;
+}
+.progress-text .customTooltip-text {
+  left: 0px !important;
+  top: 0px !important;
+}
+
+.EditIcon {
+  cursor: pointer;
+}
+
+textarea {
+  overflow: hidden;
+  overflow-wrap: break-word;
+  resize: none;
+}
+
+.onboarding-plan-box {
+  background: #ffffff;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  border-radius: 14px;
+  border: 2px solid #e6e6e7;
+  padding: 20px 20px 40px 20px;
+  min-height: 300px;
+  align-items: baseline;
+}
+.onboarding-plan-img img {
+  width: 32px;
+}
+.waypoint-section img {
+  width: 32px;
+}
+
+.fix-height {
+  min-height: 615px;
+}
+
+.onboarding-plan-text h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: #0e0d13;
+  margin: 0;
+}
+
+.onboarding-plan-text .onboarding-plan-simpletext p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #787878;
+}
+
+.success-btn {
+  background: linear-gradient(0deg, #00b649, #00b649), #00b649;
+  border-radius: 14px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #ffffff;
+  /* padding: 1px 20px; */
+  cursor: pointer;
+  border: none;
+  width: 75px;
+}
+
+.gray-btn {
+  background: #d3d3d3;
+  border-radius: 14px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #ffffff;
+  /* padding: 1px 20px; */
+  cursor: not-allowed;
+  border: none;
+  width: 75px;
+}
+
+.card_profileTxt .info-icon svg {
+  color: #cc3e2f;
+  font-size: 40px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.card-profile-img {
+  width: 149px;
+  height: 149px;
+  margin: auto;
+}
+
+.card-profile-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.onboarding-plan-link {
+  cursor: pointer;
+}
+.onboarding-plan-link:hover > p {
+  color: rgba(0, 0, 0, 0.725);
+}
+
+.onboarding-plan-tools a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #787878;
+}
+/* .onboarding-plan-tools img {
+  cursor: pointer;
+} */
+.onboarding-plan-tools svg {
+  /* cursor: pointer; */
+  font-size: 30px;
+  color: #cc3e2f;
+}
+
+.tooltiptext {
+  width: 915px;
+  height: 330px;
+  max-width: 90%;
+  background-color: #ffffff;
+  box-shadow: -1px 1px 13px 2px black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tooltiptext .Close-Icon {
+  color: #000;
+  text-align: right;
+  margin-right: 5px;
+  display: block;
+  cursor: pointer;
+}
+.tooltiptext span svg {
+  font-size: 25px;
+}
+
+.tooltiptext .mWidth100 {
+  max-width: 100% !important;
+}
+
+.onboarding-plan-text .progress-main-box {
+  background: #ffffff;
+  border: 2px solid #e6e6e7;
+  border-radius: 14px;
+  max-width: 85%;
+  padding: 10px;
+}
+
+.onboarding-plan-text .progress-main-box .progress-text h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #787878;
+  margin: 0;
+}
+
+.onboarding-plan-text .progress-main-box .progress-text h6 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #787878;
+  margin: 0;
+}
+
+.progress-main-box .progress-bar-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #787878;
+}
+
+.onboarding-plan-text button.danger-btn {
+  background: linear-gradient(0deg, #cc3e2e, #cc3e2e), #cc3e2e;
+  border-radius: 14px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #ffffff;
+  /* padding: 1px 20px; */
+  cursor: pointer;
+  border: none;
+  width: 75px;
+}
+
+.task-field-area {
+  /* border: 2px solid #e6e6e7; */
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.task-field-data {
+  align-self: center;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.mark-complete {
+  font-weight: 600;
+  font-size: 14px;
+  color: #0e0d13;
+}
+
+.taskValue .mark-complete-task {
+  margin-right: 0px 20px !important;
+}
+
+.preferred-plan-box {
+  background: #f8f8f8;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 14px;
+  border: 2px solid #e6e6e7;
+  padding: 10px 10px 10px 10px;
+  min-height: 250px;
+  align-items: baseline;
+}
+
+.task-due-date {
+  margin-top: 55px;
+}
+
+.task-mark-complete {
+  text-align: right;
+}
+
+.task-format .task-field-area {
+  margin: 6px 0;
+}
+
+.completion_status_red {
+  color: #cc3e2f;
+  font-weight: 600;
+}
+
+.completion_status_yellow {
+  color: #eda416;
+  font-weight: 600;
+}
+
+.completion_status_green {
+  color: #00b649;
+  font-weight: 600;
+}
+
+.dropdown-select-option select {
+  width: 150px;
+  margin: auto;
+  background: #f8f8f8;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.dropdown-select-option select:focus {
+  border: 1px solid #000000 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+.smiley-icon svg {
+  font-size: 27px;
+  margin-left: 10px;
+  color: #787878;
+  cursor: pointer;
+}
+.start-day {
+  background-color: #56849b;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3px;
+  border-radius: 4px 0 0 4px;
+}
+.start-day p {
+  color: #ffffff;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.end-day {
+  background-color: #336b87;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3px;
+  border-radius: 0 4px 4px 0;
+}
+.end-day p {
+  color: #ffffff;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.no-data-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  font-size: 20px;
+  color: #787878;
+}
+.selector-task {
+  cursor: pointer;
+}
+.InProgressBorder {
+  box-shadow: 0px 0px 1px 1px rgb(0 0 0 / 25%) !important;
+}
+.dropdown-select-option select {
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url(../images/arrow_grey.svg);
+  background-size: 12px;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.close-icon svg {
+  color: #000;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.chart-date {
+  font-size: 14px;
+  font-family: 'Poppins-SemiBold';
+  min-width: max-content;
+  color: #000000;
+}
+
+.timeline-chart {
+  width: calc(100% - 170px);
+  margin: 0 auto;
+}
+.pathfinder-img {
+  width: 190px;
+}
+.pathfinder-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.progress-status {
+  width: 100%;
+  line-height: 15px;
+  text-align: center;
+}
+.apexcharts-toolbar .apexcharts-zoomin-icon svg,
+.apexcharts-toolbar .apexcharts-zoomout-icon svg,
+.apexcharts-toolbar .apexcharts-pan-icon svg,
+.apexcharts-toolbar .apexcharts-reset-icon svg {
+  fill: #cc3e2f;
+}
+.apexcharts-toolbar .apexcharts-reset-icon {
+  margin: 0 !important;
+}
+
+/* OVERRIDE GOOGLE TRANSLATE WIDGET CSS BEGIN */
+div#google_translate_element div.goog-te-gadget-simple {
+  border: none;
+  background-color: transparent;
+  /*background-color: #17548d;*/ /*#e3e3ff*/
+}
+
+div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span {
+  color: #aaa;
+}
+
+div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span:hover {
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 1px 1px #000;
+}
+
+.goog-te-gadget-icon {
+  display: none !important;
+  /*background: url("url for the icon") 0 0 no-repeat !important;*/
+}
+
+/* Remove the down arrow */
+/* when dropdown open */
+div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span[style='color: rgb(213, 213, 213);'] {
+  display: none;
+}
+/* after clicked/touched */
+div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span[style='color: rgb(118, 118, 118);'] {
+  display: none;
+}
+/* on page load (not yet touched or clicked) */
+div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span[style='color: rgb(155, 155, 155);'] {
+  display: none;
+}
+
+/* Remove span with left border line | (next to the arrow) in Chrome & Firefox */
+div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span[style='border-left: 1px solid rgb(187, 187, 187);'] {
+  display: none;
+}
+/* Remove span with left border line | (next to the arrow) in Edge & IE11 */
+div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span[style='border-left-color: rgb(187, 187, 187); border-left-width: 1px; border-left-style: solid;'] {
+  display: none;
+}
+/* HIDE the google translate toolbar */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+/* body {
+  top: 0px !important;
+} */
+
+/* .video-content {
+  aspect-ratio: 16/9;
+}
+
+.video-content iframe {
+  width: 100%;
+  height: 100%;
+} */
+.iframe-background {
+  width: 53%;
+  height: 100%;
+  margin: auto;
+}
+.iframe-background video {
+  /* object-fit: fill; */
+  object-fit: cover;
+  border-radius: 10px;
+}
+.step_3-iframe-background {
+  width: 100%;
+  height: 100%;
+}
+.dropdown-item .goog-te-gadget a {
+  padding: 0;
+  color: black !important;
+}
+.google-dropdown {
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.google-dropdown a span {
+  font-size: 15px;
+  font-weight: bold;
+  color: black !important;
+  border-radius: 5px;
+}
+.google-dropdown a span:hover {
+  box-shadow: none !important;
+  color: #ffffff !important;
+}
+.google-dropdown:hover {
+  background-color: #cc3e2f !important;
+  color: #fff !important;
+}
+.google-dropdown:hover > svg {
+  color: #fff !important;
+}
+.optionContainer .highlight {
+  width: 100%;
+}
+
+.goog-te-menu-frame {
+  left: 1747px !important;
+  top: 63px !important;
+  background-color: #f0fbff !important;
+  border-radius: 10px;
+  box-shadow: inset 0 0 4px #00000063;
+}

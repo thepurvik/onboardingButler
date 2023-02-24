@@ -1,0 +1,95 @@
+.profile_card_dash {
+  border-radius: 14px;
+  border: 2px solid #e6e6e7;
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px !important;
+  height: fit-content;
+}
+.profile_card_dash .dashcard-img {
+  width: 149px;
+  height: 149px;
+}
+.profile_card_dash .dashcard-img img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.profile_card_dash h5 {
+  font-size: 20px;
+}
+.personal_info3 p {
+  font-size: 14px;
+}
+.table_data p {
+  font-size: 14px;
+}
+p {
+  color: #808080;
+}
+.profile_card_dash .Card_txt {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #0e0d13;
+}
+
+.Dash_Card_Txt {
+  word-break: break-all;
+}
+.Dash_Card_Txt p {
+  font-size: 10px;
+}
+.Dash_Card_Txt svg {
+  min-width: 16px;
+}
+.Dash_Dropdown {
+  background-color: #f0fbff !important;
+  border-radius: 10px;
+  /* position: absolute;
+  left: -214px !important; */
+  transform: translate3d(-207px, 32px, 0px) !important;
+  box-shadow: inset 0 0 4px #00000063;
+}
+.Dash_Dropdown a {
+  font-size: 15px;
+  font-weight: bold;
+  color: black !important;
+  border-radius: 5px;
+  padding: 10px;
+}
+.Dash_Dropdown a:hover {
+  background-color: #cc3e2f !important;
+  color: #fff !important;
+}
+.upload-profile .upload-emp-profile a {
+  position: absolute;
+  left: 60.3%;
+  top: 17.3%;
+}
+.upload-profile .upload-emp-profile svg {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Dash_Dropdown {
+    /* position: absolute;
+    left: 0; */
+    transform: translate3d(-213px, 28px, 0px) !important;
+    box-shadow: inset 0 0 4px #00000063;
+  }
+}
+
+/* .dropdown-menu.show {
+  transform: translate3d(-145px, 39px, 0px) !important;
+} */
+.btn_active {
+  border: 2px solid #00b649;
+  padding: 2px 4px;
+}
+.btn_active_inactive {
+  border: 2px solid #cc3e2f;
+  padding: 2px 4px;
+}

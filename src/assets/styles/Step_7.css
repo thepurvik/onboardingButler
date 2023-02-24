@@ -1,0 +1,19 @@
+.dashboard {
+  border: 1px solid #e2ebf1;
+  border-radius: 10px;
+}
+.Box_data {
+  border: 1px solid #e2ebf1;
+  border-radius: 5px;
+}
+.Box_data h6 {
+  font-size: 13px;
+}
+.box {
+  width: 14px;
+  height: 14px;
+  background-color: #393c4b;
+}
+.Box_data h5 {
+  font-size: 14px;
+}
